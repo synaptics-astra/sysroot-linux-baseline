@@ -1,0 +1,10 @@
+prefix=/usr/local
+includedir=${prefix}/include
+
+datarootdir=${prefix}/share
+pkgdatadir=${pc_sysrootdir}${datarootdir}/mesa
+
+Name: Mesa Wayland Protocols
+Description: Mesa Wayland protocol files
+Version: 22.3.5
+Cflags: -I${includedir}
